@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-org/shared": ["shared/src/index.ts"],
+      "@my-org/shared/server": ["shared/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

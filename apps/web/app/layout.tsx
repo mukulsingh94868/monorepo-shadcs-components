@@ -1,4 +1,5 @@
 import './global.css';
+import { Toaster } from "../../../shared/src/components/ui/toaster";
 
 export const metadata = {
   title: 'Welcome to web',
@@ -13,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      <Toaster />
     </html>
   );
 }
